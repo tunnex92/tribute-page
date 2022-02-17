@@ -5,7 +5,7 @@ body {
     padding-bottom: 50px;
      line-height: 1.5; 
      text-align: center; 
-     background-color: white;
+     background-color:whitesmoke;
      margin: 0; } 
 
 ul {
@@ -17,8 +17,26 @@ ul {
     position: relative;
     top: 0px;
     width: 100%;
+    }
+
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        background-color: black;
+    }
+    li{
+        display: inline-block;
+        color: white;
+        
+    }
     
-}
+    a{
+        padding: 8px;
+    }
+    
 #header{
     position: absolute;
     top: 110px;
@@ -34,27 +52,9 @@ ul {
     padding-bottom: 5px;
     margin-top: 60px;
     font-family: poppins,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: black;
-}
-li{
-    display: inline-block;
-    color: white;
+    
     
 }
-
-a{
-    padding: 8px;
-}
-
-
 
 
 .author{
@@ -70,17 +70,12 @@ footer {
     text-align: center;
     
 }
-#footers{
-    font-size: 20px;
-    text-decoration: green;
-}
-    
-}
+
 footer p {
     font-size: 15px;
     line-height: 1.4
 }
-.container{
+.wrap{
     border: 2px solid gray;
     border-left: none;
     border-right: none;
@@ -96,10 +91,12 @@ footer p {
     padding-top: 15px;
 
 }
-topic{
-       text text-align: left;
-
+.container{
+    background-image: image(bg.jpg);
 }
-
-
+#bottom{
+    font-size: 30px;
+}
+#bottom p{
+    font: 20px, bold, solid;
 }
