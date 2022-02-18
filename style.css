@@ -89,14 +89,18 @@ footer p {
     margin-left: 200px;
     background-blend-mode:overlay; 
     padding-top: 15px;
+}
 
-}
-.container{
-    background-image: image(bg.jpg);
-}
 #bottom{
     font-size: 30px;
 }
 #bottom p{
     font: 20px, bold, solid;
+}
+
+mysection {
+    border: grey;
+    margin-top: 5px;
+    background-color: green;
+    padding-top: 50px;
 }
